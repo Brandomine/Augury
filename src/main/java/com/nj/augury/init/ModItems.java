@@ -15,7 +15,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MODID)
 public class ModItems {
 	//public static final ItemWrapper codeName = new className();
-	//Base Aspects
 	public static final ItemWrapper aspectAir = new ItemAspectAir();
 	public static final ItemWrapper aspectFire = new ItemAspectFire();
 	public static final ItemWrapper aspectEntropy = new ItemAspectEntropy();
@@ -26,7 +25,6 @@ public class ModItems {
     public static void init()
     {
         //GameRegistry.registerItem(codeName, Names.Items.ItemName);
-    	//Base Aspects
     	GameRegistry.registerItem(aspectAir, Names.Items.ASPECT_AIR);
     	GameRegistry.registerItem(aspectFire, Names.Items.ASPECT_FIRE);
     	GameRegistry.registerItem(aspectEntropy, Names.Items.ASPECT_ENTROPY);
