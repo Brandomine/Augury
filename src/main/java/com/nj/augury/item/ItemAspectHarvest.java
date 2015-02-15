@@ -1,0 +1,10 @@
+package com.nj.augury.item;
+
+import com.nj.augury.references.Names;
+
+public class ItemAspectHarvest extends ItemWrapper{
+	public ItemAspectHarvest(){
+		super();
+		this.setUnlocalizedName(Names.Items.ASPECT_HARVEST);
+	}
+}
