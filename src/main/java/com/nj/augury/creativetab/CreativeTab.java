@@ -1,5 +1,6 @@
 package com.nj.augury.creativetab;
 
+import com.nj.augury.init.ModItems;
 import com.nj.augury.references.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,7 +12,7 @@ public class CreativeTab {
 	        @Override
 	        public Item getTabIconItem()
 	        {
-	            return null;
+	            return ModItems.aspectAir;
 	        }
 	    };
 }

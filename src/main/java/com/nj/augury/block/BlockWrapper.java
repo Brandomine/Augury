@@ -1,5 +1,6 @@
 package com.nj.augury.block;
 
+import com.nj.augury.creativetab.CreativeTab;
 import com.nj.augury.references.Reference;
 
 import cpw.mods.fml.relauncher.Side;
