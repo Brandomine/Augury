@@ -59,9 +59,17 @@ public class Names {
 	        public static final String ASPECT_CLOTH = "aspectCloth";
 	        public static final String ASPECT_WEAPON = "aspectWeapon";
 	        public static final String ASPECT_ARMOR = "aspectArmor";
+	      //Items
+	        
 	    }
 	 public static final class Blocks
 	 	{
-		 	public static final String TEST_BLOCK = "testBlock";
+		 	public static final String INFUSED_ASPECT_BLOCK_AIR = "infusedAspectBlockAir";
+		 	public static final String INFUSED_ASPECT_BLOCK_EARTH = "infusedAspectBlockEarth";
+		 	public static final String INFUSED_ASPECT_BLOCK_ENTROPY = "infusedAspectBlockEntropy";
+		 	public static final String INFUSED_ASPECT_BLOCK_FIRE = "infusedAspectBlockFire";
+		 	public static final String INFUSED_ASPECT_BLOCK_ORDER = "infusedAspectBlockOrder";
+		 	public static final String INFUSED_ASPECT_BLOCK_WATER = "infusedAspectBlockWater";
+		 	public static final String ALTERFORMER = "alterFormer";
 	 	}
 }

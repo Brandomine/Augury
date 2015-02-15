@@ -2,6 +2,7 @@ package com.nj.augury;
 
 import com.nj.augury.init.ModBlocks;
 import com.nj.augury.init.ModItems;
+import com.nj.augury.init.ModTileEntities;
 import com.nj.augury.proxy.IProxy;
 import com.nj.augury.references.Reference;
 
@@ -27,11 +28,13 @@ public class MainRegistry
 	public void preinit(FMLPreInitializationEvent event){
 		ModBlocks.init();
 		ModItems.init();
+		ModTileEntities.init();
+	
 	}
 	
     @EventHandler
     public void init(FMLInitializationEvent event){
-		
+    	
     }
     
     @EventHandler
