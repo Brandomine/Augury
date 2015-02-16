@@ -18,6 +18,7 @@ public class GUIBookMenu extends GuiScreen{
 		GuiButton button1;
 		GuiButton button2;
 		GuiButton button3;
+		GuiButton button4;
 		
 		@Override
 		public void drawScreen(int x, int y, float ticks){
@@ -37,6 +38,7 @@ public class GUIBookMenu extends GuiScreen{
 			buttonList.add(button1 = new GuiButton(0, guiX + 10, guiY + 15, 100, 20, "Aspects"));
 			buttonList.add(button2 = new GuiButton(1, guiX + 130, guiY + 15, 100, 20, "Wands"));
 			buttonList.add(button3 = new GuiButton(2, guiX + 10, guiY + 42, 100, 20, "World Generation"));
+			buttonList.add(button4 = new GuiButton(3, guiX + 130, guiY + 42, 100, 20, " Types of Mages"));
 			super.initGui();
 		}
 		@Override
@@ -53,7 +55,9 @@ public class GUIBookMenu extends GuiScreen{
 			case 2:
 				Minecraft.getMinecraft().displayGuiScreen(new GUIBookWorldGeneration());
 				return;
-			
+			case 3:
+				Minecraft.getMinecraft().displayGuiScreen(new GUIBookMage());
+				return;
 			}
 		super.actionPerformed(button);
 		}
