@@ -71,5 +71,6 @@ public class Names {
 		 	public static final String INFUSED_ASPECT_BLOCK_ORDER = "infusedAspectBlockOrder";
 		 	public static final String INFUSED_ASPECT_BLOCK_WATER = "infusedAspectBlockWater";
 		 	public static final String ALTERFORMER = "alterFormer";
+		 	public static final String ORE_ASPECT_FIRE = "oreAspectFire";
 	 	}
 }

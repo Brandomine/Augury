@@ -3,6 +3,7 @@ package com.nj.augury;
 import com.nj.augury.init.ModBlocks;
 import com.nj.augury.init.ModItems;
 import com.nj.augury.init.ModTileEntities;
+import com.nj.augury.init.WorldGens;
 import com.nj.augury.proxy.IProxy;
 import com.nj.augury.references.Reference;
 
@@ -29,6 +30,7 @@ public class MainRegistry
 		ModBlocks.init();
 		ModItems.init();
 		ModTileEntities.init();
+		WorldGens.init();
 	
 	}
 	

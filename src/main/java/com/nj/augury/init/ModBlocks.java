@@ -8,6 +8,7 @@ import com.nj.augury.block.BlockInfusedAspectBlockFire;
 import com.nj.augury.block.BlockInfusedAspectBlockOrder;
 import com.nj.augury.block.BlockInfusedAspectBlockWater;
 import com.nj.augury.block.BlockWrapper;
+import com.nj.augury.block.OreAspectFire;
 import com.nj.augury.references.Names;
 import com.nj.augury.references.Reference;
 
@@ -23,6 +24,7 @@ public class ModBlocks {
 	public static final BlockWrapper infusedAspectBlockOrder = new BlockInfusedAspectBlockOrder();
 	public static final BlockWrapper infusedAspectBlockWater = new BlockInfusedAspectBlockWater();
 	public static final BlockWrapper alterFormer = new BlockAlterFormer();
+	public static final BlockWrapper oreAspectFire = new OreAspectFire();
 
     public static void init()
     {
@@ -34,5 +36,6 @@ public class ModBlocks {
     	GameRegistry.registerBlock(infusedAspectBlockOrder, Names.Blocks.INFUSED_ASPECT_BLOCK_ORDER);
     	GameRegistry.registerBlock(infusedAspectBlockWater, Names.Blocks.INFUSED_ASPECT_BLOCK_WATER);
     	GameRegistry.registerBlock(alterFormer, Names.Blocks.ALTERFORMER);
+    	GameRegistry.registerBlock(oreAspectFire, Names.Blocks.ORE_ASPECT_FIRE);
     }
 }
