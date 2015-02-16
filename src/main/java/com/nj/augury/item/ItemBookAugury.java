@@ -22,4 +22,6 @@ public class ItemBookAugury extends ItemWrapper{
 		}
 		return super.onItemRightClick(itemstack, world, player);
 	}
+	
+	//Testing the commit system
 }
