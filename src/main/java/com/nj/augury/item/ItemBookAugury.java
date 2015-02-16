@@ -14,7 +14,7 @@ public class ItemBookAugury extends ItemWrapper{
 		super();
 		this.setUnlocalizedName(Names.Items.BOOK_AUGURY);
 	}
-	//this is a piece of text
+	
 	@Override
 	public ItemStack onItemRightClick(ItemStack itemstack, World world,EntityPlayer player) {
 		if(!world.isRemote){
@@ -23,5 +23,5 @@ public class ItemBookAugury extends ItemWrapper{
 		return super.onItemRightClick(itemstack, world, player);
 	}
 	
-	//Testing the commit system
+	
 }
