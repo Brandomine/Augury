@@ -60,7 +60,7 @@ public class Names {
 	        public static final String ASPECT_WEAPON = "aspectWeapon";
 	        public static final String ASPECT_ARMOR = "aspectArmor";
 	      //Items
-	        
+	        public static final String BOOK_AUGURY = "auguryBook";
 	    }
 	 public static final class Blocks
 	 	{

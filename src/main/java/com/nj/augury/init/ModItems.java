@@ -48,6 +48,7 @@ import com.nj.augury.item.ItemAspectVoid;
 import com.nj.augury.item.ItemAspectWater;
 import com.nj.augury.item.ItemAspectWeapon;
 import com.nj.augury.item.ItemAspectWeather;
+import com.nj.augury.item.ItemBookAugury;
 import com.nj.augury.item.ItemWrapper;
 import com.nj.augury.references.Names;
 import com.nj.augury.references.Reference;
@@ -113,6 +114,8 @@ public class ModItems {
 	public static final ItemWrapper aspectCloth = new ItemAspectCloth();
 	public static final ItemWrapper aspectWeapon = new ItemAspectWeapon();
 	public static final ItemWrapper aspectArmor = new ItemAspectArmor();
+	//Items
+	public static final ItemWrapper bookAugury = new ItemBookAugury();
 
     public static void init()
     {
@@ -173,5 +176,7 @@ public class ModItems {
     	GameRegistry.registerItem(aspectCloth, Names.Items.ASPECT_CLOTH);
     	GameRegistry.registerItem(aspectWeapon, Names.Items.ASPECT_WEAPON);
     	GameRegistry.registerItem(aspectArmor, Names.Items.ASPECT_ARMOR);
+    	//Items
+    	GameRegistry.registerItem(bookAugury, Names.Items.BOOK_AUGURY);
     }
 }

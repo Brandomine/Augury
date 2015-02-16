@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "augury",
+  "name": "Augury: Technical Magic",
+  "description": "magic and tech finally made love :P",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Brandomine, Techgeek1019"],
+  "credits": "Team New-Jersey",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
