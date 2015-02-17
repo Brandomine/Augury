@@ -9,12 +9,13 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.util.ResourceLocation;
 
-public class GUIBookAspects2 extends GuiScreen{
+public class GUIBookAspects3 extends GuiScreen{
 	int guiWidth = 240;
 	int guiHeight = 167;
 	GuiButton button1;
 	GuiButton button2;
 	GuiButton button3;
+	GuiButton button4;
 	
 	@Override
 	public void drawScreen(int x, int y, float ticks){
@@ -47,7 +48,8 @@ public class GUIBookAspects2 extends GuiScreen{
 		buttonList.clear();
 		buttonList.add(button1 = new GuiButton(0, guiX + 10, guiY + 137, 40, 20, "Back"));
 		buttonList.add(button2 = new GuiButton(1, guiX + 55, guiY + 137, 110, 20, "Aspects Description"));
-		buttonList.add(button3 = new GuiButton(2, guiX + 195, guiY + 137, 20, 20, "->"));
+		buttonList.add(button3 = new GuiButton(2, guiX + 170, guiY + 137, 20, 20, "<-"));
+		buttonList.add(button4 = new GuiButton(3, guiX + 195, guiY + 137, 20, 20, "->"));
 		super.initGui();
 	}
 	@Override
@@ -62,7 +64,9 @@ public class GUIBookAspects2 extends GuiScreen{
 			Minecraft.getMinecraft().displayGuiScreen(new GUIBookAspects());
 			return;
 		case 2:
-			Minecraft.getMinecraft().displayGuiScreen(new GUIBookAspects3());
+			Minecraft.getMinecraft().displayGuiScreen(new GUIBookAspects2());
+		case 3:
+			
 		}
 	super.actionPerformed(button);
 	}

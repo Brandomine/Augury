@@ -23,7 +23,7 @@ public class GUIBookAspects extends GuiScreen{
 		drawDefaultBackground();
 		mc.renderEngine.bindTexture(new ResourceLocation(Reference.MODID, "textures/gui/Gui.png"));
 		drawTexturedModalRect(guiX, guiY, 0, 0, guiWidth, guiHeight);;
-		fontRendererObj.drawString("Aspects", guiX + 5, guiY + 3, 0xFF0F37);
+		fontRendererObj.drawString("Aspects Description", guiX + 5, guiY + 3, 0xFF0F37);
 		fontRendererObj.drawString("Aspects are base of getting all 42 sub", guiX + 5, guiY + 13, 0x000000);
 		fontRendererObj.drawString("aspects. Aspects are used to craft wands,", guiX + 5, guiY + 23, 0x000000);
 		fontRendererObj.drawString("blocks, and many other things. Click below", guiX + 5, guiY + 33, 0x000000);
@@ -47,6 +47,8 @@ public class GUIBookAspects extends GuiScreen{
 		case 0:
 			Minecraft.getMinecraft().displayGuiScreen(new GUIBookMenu());
 			return;
+		case 1:
+			Minecraft.getMinecraft().displayGuiScreen(new GUIBookAspects2());
 		}
 	super.actionPerformed(button);
 	}
