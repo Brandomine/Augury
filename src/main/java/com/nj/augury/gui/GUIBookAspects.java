@@ -49,7 +49,9 @@ public class GUIBookAspects extends GuiScreen{
 			return;
 		case 1:
 			Minecraft.getMinecraft().displayGuiScreen(new GUIBookAspects2());
+			return;
 		}
 	super.actionPerformed(button);
 	}
+	
 }
