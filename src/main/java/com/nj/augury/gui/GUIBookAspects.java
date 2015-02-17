@@ -36,7 +36,7 @@ public class GUIBookAspects extends GuiScreen{
 		int guiY = (height - guiHeight) / 2;
 		buttonList.clear();
 		buttonList.add(button1 = new GuiButton(0, guiX + 10, guiY + 137, 40, 20, "Back"));
-		buttonList.add(button2 = new GuiButton(1, guiX + 55, guiY + 137, 60, 20, "Aspects"));
+		buttonList.add(button2 = new GuiButton(1, guiX + 55, guiY + 137, 110, 20, "Aspects"));
 		super.initGui();
 	}
 	@Override

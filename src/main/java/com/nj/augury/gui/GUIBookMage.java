@@ -14,6 +14,8 @@ public class GUIBookMage extends GuiScreen{
 	int guiHeight = 167;
 	GuiButton button1;
 	GuiButton button2;
+	GuiButton button3;
+	GuiButton button4;
 	
 	@Override
 	public void drawScreen(int x, int y, float ticks){
@@ -46,7 +48,11 @@ public class GUIBookMage extends GuiScreen{
 		int guiY = (height - guiHeight) / 2;
 		buttonList.clear();
 		buttonList.add(button1 = new GuiButton(0, guiX + 10, guiY + 137, 40, 20, "Back"));
-		buttonList.add(button2 = new GuiButton(1, guiX + 55, guiY + 137, 60, 20, "Next Page"));
+		buttonList.add(button2 = new GuiButton(1, guiX + 55, guiY + 137, 110, 20, ""));
+		buttonList.add(button3 = new GuiButton(2, guiX + 170, guiY + 137, 20, 20, "<-"));
+		buttonList.add(button4 = new GuiButton(3, guiX + 195, guiY + 137, 20, 20, "->"));
+		button2.enabled = false;
+		button3.enabled = false;
 		super.initGui();
 	}
 	@Override
@@ -58,12 +64,14 @@ public class GUIBookMage extends GuiScreen{
 			Minecraft.getMinecraft().displayGuiScreen(new GUIBookMenu());
 			return;
 		case 1:
-			Minecraft.getMinecraft().displayGuiScreen(new GUIBookMage2());
+			
 			return;
 		case 2:
 			
 			return;
-		
+		case 3:
+			Minecraft.getMinecraft().displayGuiScreen(new GUIBookMage2());
+			return;
 		}
 	super.actionPerformed(button);
 	}

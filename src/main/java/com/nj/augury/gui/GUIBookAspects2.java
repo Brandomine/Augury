@@ -25,7 +25,7 @@ public class GUIBookAspects2 extends GuiScreen{
 		drawDefaultBackground();
 		mc.renderEngine.bindTexture(new ResourceLocation(Reference.MODID, "textures/gui/Gui.png"));
 		drawTexturedModalRect(guiX, guiY, 0, 0, guiWidth, guiHeight);;
-		fontRendererObj.drawString("Aspect List", guiX + 5, guiY + 3, 0xFF0F37);
+		fontRendererObj.drawString("Aspect List - Page 1 of 5", guiX + 5, guiY + 3, 0xFF0F37);
 		fontRendererObj.drawString("Aspect         Tier", guiX + 5, guiY + 13, 0x000000);
 		fontRendererObj.drawString("Air - Base aspect", guiX + 5, guiY + 23, 0x000000);
 		fontRendererObj.drawString("Alien - Tier 3", guiX + 5, guiY + 33, 0x000000);
