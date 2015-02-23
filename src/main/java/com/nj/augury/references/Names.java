@@ -73,4 +73,8 @@ public class Names {
 		 	public static final String ALTERFORMER = "alterFormer";
 		 	public static final String ORE_ASPECT_FIRE = "oreAspectFire";
 	 	}
+	 public static final class Tiles
+	 	{
+		 	public static final String MACHINE = "tileMachine";
+	 	}
 }
