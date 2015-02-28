@@ -1,6 +1,9 @@
 package com.nj.augury.init;
 
-import com.nj.augury.api.ThermalExpansionHelper;
+import thaumcraft.api.crafting.InfusionRecipe;
+
+import com.nj.augury.api.azanor.thaumcraft.api.ThaumcraftApi;
+import com.nj.augury.api.cofh.thermalexpansion.ThermalExpansionHelper;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
@@ -20,5 +23,7 @@ public class ModRecipes {
 		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectWater)), (new ItemStack(ModItems.aspectEarth)), (new ItemStack(ModItems.aspectLife)), null, 0);
 		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectOrder)), (new ItemStack(ModItems.aspectEarth)), (new ItemStack(ModItems.aspectCrystal)), null, 0);
 		//Tier 2
+		
+		//test
 	}
 }

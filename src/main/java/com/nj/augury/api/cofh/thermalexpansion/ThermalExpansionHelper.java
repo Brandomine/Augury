@@ -1,4 +1,4 @@
-package com.nj.augury.api;
+package com.nj.augury.api.cofh.thermalexpansion;
 
 import com.nj.augury.item.ItemWrapper;
 import com.nj.augury.utility.LogHelper;
