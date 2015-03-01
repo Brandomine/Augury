@@ -6,4 +6,5 @@ public class Reference {
 	public static final String MODNAME = "Augury";
 	public static final String CLIENT_PROXY_CLASS = "com.nj.augury.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.nj.augury.proxy.ServerProxy";
+ 	public static final String THAUMIC_TAB = "Augury";
 }

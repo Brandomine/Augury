@@ -1,6 +1,5 @@
 package com.nj.augury.init;
 
-import com.nj.augury.integration.thaumcraft.AuguryResearch;
 import com.nj.augury.references.Reference;
 
 import net.minecraft.item.ItemStack;
@@ -11,6 +10,5 @@ import thaumcraft.api.research.ResearchCategories;
 
 public class ModApiHelper {
 	public final static void init(){
-		ResearchCategories.registerCategory("Augury", (new ResourceLocation(Reference.MODID, "textures/items/aspectFire.png")), (new ResourceLocation(Reference.MODID, "textures/gui/gui_researchback.png")));
 	}
 }

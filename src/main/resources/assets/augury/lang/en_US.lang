@@ -49,3 +49,5 @@ item.augury:aspectWater.name=Water
 item.augury:aspectWeapon.name=Weapon
 item.augury:aspectWeather.name=Weather
 item.augury:auguryBook.name=The Book of Auguring
+tc.research_page.TEST=At first sight you had no idea what technology and magic could do together. You didn't even know at one point what Earth and Fire is... Then you stumble upon augury in the thaumonomicon and think #whatisthis?! Kinda funny but lets be serious, throw some fire and entropy into a induction smelter and supply it 5,000 RF.
+tc.research_name.Introduction=Introduction 
