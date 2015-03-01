@@ -1,4 +1,5 @@
-itemGroup.augury=Augury
+itemGroup.augury=Augury: Technical Magic
+tc.research_category.Augury=Augury: Technical Magic
 item.augury:aspectAir.name=Air
 item.augury:aspectAlien.name=Alien
 item.augury:aspectArmor.name=Armor

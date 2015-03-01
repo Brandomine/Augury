@@ -1,5 +1,6 @@
 package com.nj.augury;
 
+import com.nj.augury.init.ModApiHelper;
 import com.nj.augury.init.ModBlocks;
 import com.nj.augury.init.ModItems;
 import com.nj.augury.init.ModRecipes;
@@ -30,6 +31,7 @@ public class MainRegistry
 		ModBlocks.init();
 		ModItems.init();
 		ModWorldGen.init();
+		ModApiHelper.init();
 	}
 	
     @EventHandler

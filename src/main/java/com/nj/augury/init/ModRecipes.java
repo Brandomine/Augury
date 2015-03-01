@@ -1,8 +1,6 @@
 package com.nj.augury.init;
 
 import thaumcraft.api.crafting.InfusionRecipe;
-
-import com.nj.augury.api.azanor.thaumcraft.api.ThaumcraftApi;
 import com.nj.augury.api.cofh.thermalexpansion.ThermalExpansionHelper;
 
 import net.minecraft.item.ItemStack;

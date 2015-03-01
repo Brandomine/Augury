@@ -26,7 +26,8 @@ public class ResearchPage {
         INFUSION_CRAFTING,
         COMPOUND_CRAFTING,
         INFUSION_ENCHANTMENT,
-        SMELTING
+        SMELTING;
+
     }
 	
 	public PageType type = PageType.TEXT;
