@@ -1,8 +1,12 @@
 package com.nj.augury.init;
 
+import thaumcraft.api.ThaumcraftApiHelper;
 import thaumcraft.api.crafting.InfusionRecipe;
-import com.nj.augury.api.cofh.thermalexpansion.ThermalExpansionHelper;
 
+import com.nj.augury.api.cofh.thermalexpansion.ThermalExpansionHelper;
+import com.nj.augury.utility.LogHelper;
+
+import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -10,7 +14,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModRecipes {
 	public static void init(){
 		//Tier 1
-		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectFire)), (new ItemStack(ModItems.aspectEntropy)), (new ItemStack(ModItems.aspectFrost)), null, 0);
+		//ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectFire)), (new ItemStack(ModItems.aspectEntropy)), (new ItemStack(ModItems.aspectFrost)), null, 0);
 		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectAir)), (new ItemStack(ModItems.aspectFire)), (new ItemStack(ModItems.aspectLight)), null, 0);
 		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectAir)), (new ItemStack(ModItems.aspectOrder)), (new ItemStack(ModItems.aspectMotion)), null, 0);
 		ThermalExpansionHelper.addSmelterRecipe(5000, (new ItemStack(ModItems.aspectOrder)), (new ItemStack(ModItems.aspectEntropy)), (new ItemStack(ModItems.aspectExchange)), null, 0);
@@ -23,5 +27,6 @@ public class ModRecipes {
 		//Tier 2
 		
 		//test
+		
 	}
 }
