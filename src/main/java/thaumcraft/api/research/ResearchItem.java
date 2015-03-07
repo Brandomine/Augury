@@ -5,6 +5,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.StatCollector;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
+import thaumcraft.api.crafting.InfusionRecipe;
 
 public class ResearchItem 
 {
@@ -365,5 +366,5 @@ public class ResearchItem
 		}
 		return aspect;
 	}
-	
+
 }

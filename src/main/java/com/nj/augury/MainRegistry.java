@@ -5,6 +5,7 @@ import com.nj.augury.init.ModBlocks;
 import com.nj.augury.init.ModItems;
 import com.nj.augury.init.ModRecipes;
 import com.nj.augury.init.ModWorldGen;
+import com.nj.augury.integration.thaumcraft.recipes.Recipes;
 import com.nj.augury.integration.thaumcraft.research.Research;
 import com.nj.augury.proxy.IProxy;
 import com.nj.augury.references.Reference;
@@ -38,6 +39,7 @@ public class MainRegistry
     @EventHandler
     public void init(FMLInitializationEvent event){
     	ModRecipes.init();
+    	Recipes.init();
     }
     
     @EventHandler
